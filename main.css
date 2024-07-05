@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('./git_ir_gitHub/resources/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto ;
+    text-align: center;
+    padding-top: 40vh;
+    overflow: ;
+}
+.videoContainer{
+    width: 10px;
+    height: 100%;
+    display: block;
+}
+.container {
+    width: 90%;
+    max-width: 400px;
+    height: 1fr ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+    
+}
+
+.hero {
+    margin-bottom: 20px;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    height: 50px;
+}
+
+
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.textMeta {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+a{
+    text-decoration-style: dotted;
+    color: white;
+}
+a:hover{
+    color:blue
+}
+
+.nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    padding: 10px 0;
+    margin: 5px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background: white;
+    color: #121212;
+}
+
+
+.containerTab {
+    width: 90%;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30vh;
+    margin-bottom: 30vh;
+    height: 1fr;
+    margin: 50vh;
+}
+
+
+.videoContainer{
+    width: 100%;
+}
+video{
+    width: inherit
+ 
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px ;
+    background-color: #272727;
+}
+
+
+.header h1 {
+    font-size: 1.5rem;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.close-btn:hover{
+    transition: 0.70s;
+    transform: rotate(90deg);
+  }
+
+.image-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.text-container {
+    padding: 15px;
+    line-height: 1.5;
+}
+
+
+@media only screen and (min-width:431px) {
+
+    body{
+    }
+
+
+
+}
