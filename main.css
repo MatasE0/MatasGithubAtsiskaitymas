@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-y: ;
+    overflow-y: hidden;
+    overflow-x: hidden ;
+
 }
 
 body {
@@ -95,7 +97,7 @@ a:hover {
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    transition: background 0.3s, color 0.3s;
+    transition:  0.3s, color 0.3s;
 
 }
 
@@ -109,7 +111,6 @@ a:hover {
     width: 90%;
     background-color: #1e1e1e;
     border-radius: 8px;
-    overflow: ;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     margin-top: 30vh;
     margin-bottom: 30vh;
@@ -148,6 +149,8 @@ video {
     color: white;
     font-size: 1.5rem;
     cursor: pointer;
+    overflow-x: hidden;
+
 
 }
 
