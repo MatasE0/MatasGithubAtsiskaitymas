@@ -1,82 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Metaverse</title>
     <link rel="stylesheet" href="./main.css">
 </head>
+
 <body id="top">
     <!--home-->
     <div class="container">
-        <div id="main" class="tab-content " >
+        <div id="main">
             <div class="hero">
                 <div class="logo-container">
-                    <svg fill="white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M507.9 196.4l-104-153.8C399.4 35.95 391.1 32 384 32H127.1C120 32 112.6 35.95 108.1 42.56l-103.1 153.8c-6.312 9.297-5.281 21.72 2.406 29.89l231.1 246.2C243.1 477.3 249.4 480 256 480s12.94-2.734 17.47-7.547l232-246.2C513.2 218.1 514.2 205.7 507.9 196.4zM382.5 96.59L446.1 192h-140.1L382.5 96.59zM256 178.9L177.6 80h156.7L256 178.9zM129.5 96.59L205.1 192H65.04L129.5 96.59zM256 421L85.42 240h341.2L256 421z"/></svg>
+                    <svg fill="white" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                        <path
+                            d="M507.9 196.4l-104-153.8C399.4 35.95 391.1 32 384 32H127.1C120 32 112.6 35.95 108.1 42.56l-103.1 153.8c-6.312 9.297-5.281 21.72 2.406 29.89l231.1 246.2C243.1 477.3 249.4 480 256 480s12.94-2.734 17.47-7.547l232-246.2C513.2 218.1 514.2 205.7 507.9 196.4zM382.5 96.59L446.1 192h-140.1L382.5 96.59zM256 178.9L177.6 80h156.7L256 178.9zM129.5 96.59L205.1 192H65.04L129.5 96.59zM256 421L85.42 240h341.2L256 421z" />
+                    </svg>
                 </div>
                 <h1 class="title">Metaverse</h1>
-                <p class="textMeta">Innovation that will shape how we <a href="#">connect</a></span> in the world an <a href="#">opportunity</a></span> for everybody.</p>
+                <p class="textMeta">Innovation that will shape how we <a href="#">connect</a></span> in the world an <a
+                        href="#">opportunity</a></span> for everybody.</p>
             </div>
-            <nav class="nav">
-                <a href="#intro" class="nav-link" onclick="showTab('intro')">Intro</a>
-                <a href="#work" class="nav-link" >Work</a>
-                <a href="#aboutUs" class="nav-link" >About</a>
-                <a href="#contactUs" class="nav-link" >Contact</a>
-            </nav>
+            <div id="navWrap">
+                <nav class="nav" class="desktopNav">
+                    <a href="#intro" class="nav-link">Intro</a>
+                    <a href="#work" class="nav-link">Work</a>
+                    <a href="#aboutUs" class="nav-link">About</a>
+                    <a href="#contactUs" class="nav-link">Contact</a>
+                </nav>
+            </div>
         </div>
-    <!-- intro -->
-    <div id="intro" class="containerTab" class="tab-content"  >
-        <div class="header">
-            <h1>Intro</h1>
-            <a href="#top"><button class="close-btn">&times;</button></a>
+        <!-- intro -->
+        <div id="intro" class="containerTab" class="tab-content">
+            <div class="header">
+                <h1>Intro</h1>
+                <a href="#top"><button class="close-btn">&times;</button></a>
+            </div>
+            <div class="videoContainer">
+                <video src="./git_ir_gitHub/resources/tab-1.mp4" controls autoplay loop muted></video>
+            </div>
+            <div class="text-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo
+                    repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam
+                    fugit voluptas placeat architecto deleniti dolore</p>
+                <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates
+                    aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore
+                    quibusdam, minima vel, neque ullam magnam cumque at quo corporis.</p>
+            </div>
         </div>
-        <div class="videoContainer">
-            <video src="./git_ir_gitHub/resources/tab-1.mp4" controls autoplay loop muted></video>
+
+        <!-- work -->
+        <div id="work" class="containerTab" class="tab-content">
+            <div class="header">
+                <h2>Work</h2>
+                <a href="#top"><button class="close-btn">&times;</button></a>
+            </div>
+            <div class="imgContainer">
+                <img src="./git_ir_gitHub/resources/tab-2.jpg" alt="image">
+            </div>
+            <div class="text-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo
+                    repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam
+                    fugit voluptas placeat architecto deleniti dolore</p>
+                <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates
+                    aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore
+                    quibusdam, minima vel, neque ullam magnam cumque at quo corporis.</p>
+            </div>
         </div>
-        <div class="text-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam fugit voluptas placeat architecto deleniti dolore</p>
-            <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore quibusdam, minima vel, neque ullam magnam cumque at quo corporis.</p>
+        <!-- about us-->
+        <div id="aboutUs" class="containerTab" class="tab-content">
+            <div class="header">
+                <h2>About Us</h2>
+                <a href="#top"><button class="close-btn">&times;</button></a>
+            </div>
+            <div class="imgContainer">
+                <img src="./git_ir_gitHub/resources/tab-3.jpg" alt="image">
+            </div>
+            <div class="text-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo
+                    repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam
+                    fugit voluptas placeat architecto deleniti dolore</p>
+                <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates
+                    aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore
+                    quibusdam, minima vel, neque ullam magnam cumque at quo corporis.</p>
+            </div>
         </div>
-    </div>
-   
-    <!-- work -->
-    <div id="work" class="containerTab" class="tab-content"  >
-        <div class="header">
-            <h2>Work</h2>
-            <a href="#top"><button class="close-btn">&times;</button></a>
+        <!--contact us-->
+        <div id="contactUs" class="containerTab" class="tab-content">
+            <div class="header">
+                <h2>Contact Us</h2>
+                <a href="#top"><button class="close-btn">&times;</button></a>
+            </div>
+            <div class="imgContainer">
+                <img src="./git_ir_gitHub/resources/tab-4.jpg" alt="image">
+            </div>
+            <div class="text-container">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo
+                    repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam
+                    fugit voluptas placeat architecto deleniti dolore</p>
+                <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates
+                    aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore
+                    quibusdam, minima vel, neque ullam magnam cumque at quo corporis.</p>
+            </div>
         </div>
-        
-        <div class="text-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam fugit voluptas placeat architecto deleniti dolore</p>
-            <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore quibusdam, minima vel, neque ullam magnam cumque at quo corporis.</p>
-        </div>
-    </div>
-    <!-- about us-->
-    <div id="aboutUs" class="containerTab" class="tab-content"  >
-        <div class="header">
-            <h2>About Us</h2>
-            <a href="#top"><button class="close-btn">&times;</button></a>
-        </div>
-        
-        <div class="text-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam fugit voluptas placeat architecto deleniti dolore</p>
-            <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore quibusdam, minima vel, neque ullam magnam cumque at quo corporis.</p>
-        </div>
-    </div>
-    <!--contact us-->
-    <div id="contactUs" class="containerTab" class="tab-content"  >
-        <div class="header">
-            <h2>Contact Us</h2>
-            <a href="#top"><button class="close-btn">&times;</button></a>
-        </div>
-        
-        <div class="text-container">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis ipsa, eum possimus explicabo repellat impedit eius omnis sapiente? Libero aperiam ut, sint quasi sapiente nesciunt quibusdam fugit voluptas placeat architecto deleniti dolore</p>
-            <p>Hic nesciunt incidunt commodi delectus nostrum? Voluptatum perspiciatis sequi nobis, voluptates aperiam recusandae omnis ullam, reprehenderit labore tempore et! Tenetur accusantium tempore quibusdam, minima vel, neque ullam magnam cumque at quo corporis.</p>
-        </div>
-    </div>
 
 
 
 </body>
+
 </html>
