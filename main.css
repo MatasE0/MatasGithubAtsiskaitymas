@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     overflow-y: hidden;
-    overflow-x: hidden ;
+    overflow-x: hidden;
 
 }
 
@@ -97,7 +97,7 @@ a:hover {
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    transition:  0.3s, color 0.3s;
+    transition: 0.3s, color 0.3s;
 
 }
 
